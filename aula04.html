@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - Controle de fluxo ou condicionantes</title>
+</head>
+
+<script>
+
+//Estrutura if
+
+// var ano = 2021;
+// if(ano == 2021){ 
+//   console.log("O valor ano é diferente a 2022");}
+
+var ano = 2022;
+
+if(ano >= 2022) {
+    if(ano == 2022){
+    console.log("O ano é igual a 2022");
+} else {
+    console.log("O ano é maior ou igual a 2022");
+}
+
+
+} else {
+    console.log("O ano não é igual a 2022");
+}
+
+//operador OU
+var a = 2;
+var b = 0;
+
+if ( a == 2 || b == 2) {
+    console.log("Estou no primeiro fluxo");
+} else {
+    console.log ("Estou no segundo fluxo");
+}
+
+// E lógico
+var x = 3;
+var y = 3;
+
+if( x == 3 && y == 3 ){
+    console.log("Estou no primeiro fluxo do ano");
+} 
+else {
+    console.log ("Estou no segundo fluxo");
+}
+
+//Diferente uma da outra
+if( x != y){
+    console.log("x é diferente de y")
+} 
+else {
+    console.log("x é igual de y")
+} 
+
+//////////
+
+var x = 9;
+
+switch(x) {
+    case 1: console.log("Executando a tarefa 1");
+    break;
+
+    case 5: console.log("Executando a tarefa 2");
+    break;
+
+    case 8: console.log("Executando a tarefa 3");
+    break;
+    
+    case 9: console.log("Executando a tarefa 4")
+
+    break;
+
+    default: console.log("Saindo do sistema");
+}
+
+</script>
+<body>
+    
+</body>
+</html>

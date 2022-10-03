@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // alert("Olá mundo");
+    // prompt("Digite alguma coisa");
+    // confirm("Clique em um botão");
+
+        // var nome = "Sara";
+        // alert("Olá " + nome);
+
+    // var nome = prompt("Digite seu nome");
+    // var cor = prompt("Qual sua cor favorita " + nome);
+    
+    // document.write("Nome...." + nome + "<br>"); 
+    // document.write("A cor favorita da " +  nome + " é " +cor);
+
+    // var verdFalso = confirm("Clique em um botão");
+    // if(verdFalso){
+    //     console.log("Você clicou no OK");
+    // }
+    // else{
+    //     console.log("Você clico em CANCELAR");
+    // }
+
+    // if(confirm("clique em um notão")) {
+    //     alert("Você clicou mesmo em Ok");
+    // }    
+    // else {
+    //     console.log("Você clicou no cancelar");
+    // }
+
+        var opcao = prompt("Digite 1 ou 2 para continuar");
+        console.log(opcao);
+
+    switch(opcao){
+        case '1':
+        var pergunta = confirm("Você pretende continuar na operação?");
+        if(pergunta){
+            alert("Parabéns, você continuou na execussão");
+        }
+        else {
+            alert("Você não continuou a execussão, volte mais tarde");
+        }
+        break;
+
+        case '2': 
+        var pergunta = confirm("Você fez faculdade?");
+        if(pergunta){
+            var curso = prompt("Qual o nome do curso que você faz");
+            alert("Parabéns!! Esse curso de " + curso + " é demais!");
+
+        }
+    break;
+    
+        default:console.log("Esta opção não existe");
+        break;
+
+    }
+
+</script>
+<body>
+    
+</body>
+</html>
