@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    // var qualquer; //variável não definida - variável global / não está dentro do if
+    // let ola = "variável let"; // global
+    // const valorConstante = 100;
+
+    // if(true){
+    //     console.log(valorConstante);
+    //     var varDentroDoIf = "Estou dentro do if";
+    //     let letDentroDoIf = "Let e estou dentro do If";
+    // }
+    //     console.log(letDentroDoIf);
+
+//literal
+
+        function soma(){
+            console.log(1+3);
+        }
+
+        // soma();
+        function concatenarNome(){
+            var nome = "Sara"; //LOCAL
+            var sobreNome =  " Souza";
+            alert(nome + sobreNome);
+            
+        }
+         //concatenarNome();
+
+         function novaConcatenarNome(nome, sobreNome){
+            document.write(nome +"  "+ sobreNome);
+         }
+
+         novaConcatenarNome("Sara", " Souza");
+        
+         let semNome = function(){
+            alert("Estou em uma função anonima");
+         }
+         semNome();
+
+         let funComPars = function(idade, idadePar){
+                if(idade > idadePar){
+                    alert("Você tem idade maior que " + idadePar);
+                } 
+                else{
+                    alert("Você tem idade menor que " + idadePar);
+                }
+         }
+
+         funComPars(16, 18);
+</script>
+<body>
+    
+</body>
+</html>

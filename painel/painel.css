@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.opcoes{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(124, 175, 209) ;
+}
+
+.opcoes header {
+    font-size: 27px;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 70px ;
+    background-color: rgb(108, 155, 187) ;
+    user-select: none;
+}
+
+.icons-list {
+    margin-right: 5px;
+}
+
+.opcoes ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 25px;
+    color: blanchedalmond;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba( 255, 255, 255, 0.2);
+}
+
+ul li:hover{
+    padding-left: 50px;
+}
+
+.opcoes ul a li {
+    margin-right: 16px;
+}
+
+section{
+    background: url(img/tecnologia.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
